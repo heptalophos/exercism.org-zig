@@ -1,1 +1,9 @@
-{"track":"zig","exercise":"collatz-conjecture","id":"7266cf8cba2e4b968986a1d3673b8324","url":"https://exercism.org/tracks/zig/exercises/collatz-conjecture","handle":"heptalophos","is_requester":true,"auto_approve":false}
+{
+    "track": "zig",
+    "exercise": "collatz-conjecture",
+    "id": "7266cf8cba2e4b968986a1d3673b8324",
+    "url": "https://exercism.org/tracks/zig/exercises/collatz-conjecture/solutions/7266cf8cba2e4b968986a1d3673b8324",
+    "handle": "heptalophos",
+    "is_requester": true,
+    "auto_approve": false
+}
