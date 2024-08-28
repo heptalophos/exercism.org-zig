@@ -1,1 +1,9 @@
-{"track":"zig","exercise":"hello-world","id":"132d42f52c5e4b00b9735777012220d7","url":"https://exercism.org/tracks/zig/exercises/hello-world","handle":"heptalophos","is_requester":true,"auto_approve":false}
+{
+    "track": "zig",
+    "exercise": "hello-world",
+    "id": "132d42f52c5e4b00b9735777012220d7",
+    "url": "https://exercism.org/tracks/zig/exercises/hello-world/solutions/132d42f52c5e4b00b9735777012220d7",
+    "handle": "heptalophos",
+    "is_requester": true,
+    "auto_approve": false
+}
