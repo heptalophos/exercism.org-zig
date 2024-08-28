@@ -1,0 +1,6 @@
+.ionide/
+.vscode/
+cleanup.*
+HELP.md
+HINTS.md
+runTests.ps1
