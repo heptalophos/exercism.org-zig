@@ -11,7 +11,8 @@ pub fn steps(number: usize) ComputationError!usize {
             x >>= 1; 
         } else { 
             x *= 3; 
-            x += 1; }
+            x += 1; 
+        }
     }
     return stepz;
 }
