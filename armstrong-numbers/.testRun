@@ -1,0 +1,20 @@
+=======================================================
+Wed Sep 11 01:35:45 GTBDT 2024
+=======================================================
+>zig test test_armstrong_numbers.zig
+
+1/13 test_armstrong_numbers.test.zero is an armstrong number...OK
+2/13 test_armstrong_numbers.test.single-digit numbers are armstrong numbers...OK
+3/13 test_armstrong_numbers.test.there are no two-digit armstrong numbers...OK
+4/13 test_armstrong_numbers.test.three-digit number that is an armstrong number...OK
+5/13 test_armstrong_numbers.test.three-digit number that is not an armstrong number...OK
+6/13 test_armstrong_numbers.test.four-digit number that is an armstrong number...OK
+7/13 test_armstrong_numbers.test.four-digit number that is not an armstrong number...OK
+8/13 test_armstrong_numbers.test.seven-digit number that is an armstrong number...OK
+9/13 test_armstrong_numbers.test.seven-digit number that is not an armstrong number...OK
+10/13 test_armstrong_numbers.test.33-digit number that is an armstrong number...OK
+11/13 test_armstrong_numbers.test.38-digit number that is not an armstrong number...OK
+12/13 test_armstrong_numbers.test.the largest and last armstrong number...OK
+13/13 test_armstrong_numbers.test.the largest 128-bit unsigned integer value is not an armstrong number...OK
+
+All 13 tests passed.
