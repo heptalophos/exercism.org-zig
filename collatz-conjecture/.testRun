@@ -4,3 +4,18 @@ Wed Aug 28 22:52:23 GTBDT 2024
 >zig test test_collatz_conjecture.zig
 
 All 5 tests passed.
+
+
+
+=======================================================
+Wed Sep 11 01:36:40 GTBDT 2024
+=======================================================
+>zig test test_collatz_conjecture.zig
+
+1/5 test_collatz_conjecture.test.zero steps for one...OK
+2/5 test_collatz_conjecture.test.divide if even...OK
+3/5 test_collatz_conjecture.test.even and odd steps...OK
+4/5 test_collatz_conjecture.test.large number of even and odd steps...OK
+5/5 test_collatz_conjecture.test.zero is an error...OK
+
+All 5 tests passed.
