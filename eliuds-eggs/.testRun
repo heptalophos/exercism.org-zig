@@ -1,0 +1,10 @@
+=======================================================
+Mon Sep 16 01:30:07 GTBDT 2024
+=======================================================
+>zig test test_eliuds_eggs.zig
+
+1/4 test_eliuds_eggs.test.0 eggs...OK
+2/4 test_eliuds_eggs.test.1 egg...OK
+3/4 test_eliuds_eggs.test.4 eggs...OK
+4/4 test_eliuds_eggs.test.13 eggs...OK
+All 4 tests passed.
