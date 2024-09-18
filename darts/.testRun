@@ -17,3 +17,25 @@ Tue Sep 17 23:52:48 GTBDT 2024
 12/13 test_darts.test.just outside the outer circle...OK
 13/13 test_darts.test.asymmetric position between the inner and middle circles...OK
 All 13 tests passed.
+
+
+
+=======================================================
+Wed Sep 18 07:57:44 GTBDT 2024
+=======================================================
+>zig test test_darts.zig
+
+1/13 test_darts.test.missed target...OK
+2/13 test_darts.test.on the outer circle...OK
+3/13 test_darts.test.on the middle circle...OK
+4/13 test_darts.test.on the inner circle...OK
+5/13 test_darts.test.exactly on center...OK
+6/13 test_darts.test.near the center...OK
+7/13 test_darts.test.just within the inner circle...OK
+8/13 test_darts.test.just outside the inner circle...OK
+9/13 test_darts.test.just within the middle circle...OK
+10/13 test_darts.test.just outside the middle circle...OK
+11/13 test_darts.test.just within the outer circle...OK
+12/13 test_darts.test.just outside the outer circle...OK
+13/13 test_darts.test.asymmetric position between the inner and middle circles...OK
+All 13 tests passed.

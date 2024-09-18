@@ -5,11 +5,11 @@ pub const Coordinate = struct {
         return Coordinate { .x = x_coord, .y = y_coord };
     }
     pub fn score(self: Coordinate) usize {
-        const dist = @sqrt(self.x * self.x + self.y * self.y);
+        const radius = @sqrt(self.x * self.x + self.y * self.y);
         var points: u8 = 0;
-        if (dist <= 10) points += 1;
-        if (dist <= 5)  points += 4;
-        if (dist <= 1)  points += 5;
+        if (radius <= 10) points += 1;
+        if (radius <= 5)  points += 4;
+        if (radius <= 1)  points += 5;
         return points;
     }
 };
