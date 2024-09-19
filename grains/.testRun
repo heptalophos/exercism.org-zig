@@ -1,0 +1,16 @@
+=======================================================
+Thu Sep 19 21:29:55 GTBDT 2024
+=======================================================
+>zig test test_grains.zig
+
+1/10 test_grains.test.grains on square 1...OK
+2/10 test_grains.test.grains on square 2...OK
+3/10 test_grains.test.grains on square 3...OK
+4/10 test_grains.test.grains on square 4...OK
+5/10 test_grains.test.grains on square 16...OK
+6/10 test_grains.test.grains on square 32...OK
+7/10 test_grains.test.grains on square 64...OK
+8/10 test_grains.test.square 0 produces an error...OK
+9/10 test_grains.test.square greater than 64 produces an error...OK
+10/10 test_grains.test.returns the total number of grains on the board...OK
+All 10 tests passed.
