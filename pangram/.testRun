@@ -1,0 +1,17 @@
+=======================================================
+Thu Sep 26 12:01:40 GTBDT 2024
+=======================================================
+>zig test test_pangram.zig
+
+1/11 test_pangram.test.empty sentence...OK
+2/11 test_pangram.test.perfect lower case...OK
+3/11 test_pangram.test.only lower case...OK
+4/11 test_pangram.test.missing the letter 'x'...OK
+5/11 test_pangram.test.missing the letter 'h'...OK
+6/11 test_pangram.test.with underscores...OK
+7/11 test_pangram.test.with numbers...OK
+8/11 test_pangram.test.missing letters replaced by numbers...OK
+9/11 test_pangram.test.mixed case and punctuation...OK
+10/11 test_pangram.test.a-m and A-M are 26 different characters but not a pangram...OK
+11/11 test_pangram.test.non-alphanumeric printable ASCII...OK
+All 11 tests passed.
