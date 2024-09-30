@@ -1,5 +1,6 @@
 .ionide/
 .vscode/
+.older/
 cleanup.*
 HELP.md
 HINTS.md
