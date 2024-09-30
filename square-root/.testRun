@@ -1,0 +1,12 @@
+=======================================================
+Mon Sep 30 22:27:48 GTBDT 2024
+=======================================================
+>zig test test_square_root.zig
+
+1/6 test_square_root.test.root of 1...OK
+2/6 test_square_root.test.root of 4...OK
+3/6 test_square_root.test.root of 25...OK
+4/6 test_square_root.test.root of 81...OK
+5/6 test_square_root.test.root of 196...OK
+6/6 test_square_root.test.root of 65025...OK
+All 6 tests passed.
