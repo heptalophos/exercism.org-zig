@@ -1,0 +1,11 @@
+=======================================================
+Tue Oct  8 14:06:18 GTBDT 2024
+=======================================================
+>zig test test_nucleotide_count.zig
+
+1/5 test_nucleotide_count.test.empty strand...OK
+2/5 test_nucleotide_count.test.can count one nucleotide in single-character input...OK
+3/5 test_nucleotide_count.test.strand with repeated nucleotide...OK
+4/5 test_nucleotide_count.test.strand with multiple nucleotides...OK
+5/5 test_nucleotide_count.test.strand with invalid nucleotides...OK
+All 5 tests passed.
