@@ -1,1 +1,9 @@
-{"track":"zig","exercise":"nucleotide-count","id":"539948b2a66f465b84cc0ed6d12354a0","url":"https://exercism.org/tracks/zig/exercises/nucleotide-count","handle":"heptalophos","is_requester":true,"auto_approve":false}
+{
+    "track": "zig",
+    "exercise": "nucleotide-count",
+    "id": "539948b2a66f465b84cc0ed6d12354a0",
+    "url": "https://exercism.org/tracks/zig/exercises/nucleotide-count/solutions/539948b2a66f465b84cc0ed6d12354a0",
+    "handle": "heptalophos",
+    "is_requester": true,
+    "auto_approve": false
+}
