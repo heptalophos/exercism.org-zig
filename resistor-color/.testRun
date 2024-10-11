@@ -1,0 +1,10 @@
+=======================================================
+Fri Oct 11 22:51:01 GTBDT 2024
+=======================================================
+>zig test test_resistor_color.zig
+
+1/4 test_resistor_color.test.black...OK
+2/4 test_resistor_color.test.white...OK
+3/4 test_resistor_color.test.orange...OK
+4/4 test_resistor_color.test.colors...OK
+All 4 tests passed.
