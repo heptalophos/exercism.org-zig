@@ -1,0 +1,52 @@
+=======================================================
+Tue Oct 15 23:59:56 GTBDT 2024
+=======================================================
+>zig test test_bob.zig
+
+bob.zig:10:14: error: use of undeclared identifier 's'
+bob.zig:24:32: error: use of undeclared identifier 's'
+
+
+
+=======================================================
+Wed Oct 16 01:13:31 GTBDT 2024
+=======================================================
+>zig test test_bob.zig
+
+bob.zig:13:13: error: value of type 'bool' ignored
+bob.zig:13:13: note: all non-void values must be used
+bob.zig:13:13: note: to discard the value, assign it to '_'
+
+
+
+=======================================================
+Wed Oct 16 01:55:31 GTBDT 2024
+=======================================================
+>zig test test_bob.zig
+
+1/25 test_bob.test.stating something...OK
+2/25 test_bob.test.shouting...OK
+3/25 test_bob.test.shouting gibberish...OK
+4/25 test_bob.test.asking a question...OK
+5/25 test_bob.test.asking a numeric question...OK
+6/25 test_bob.test.asking gibberish...OK
+7/25 test_bob.test.talking forcefully...OK
+8/25 test_bob.test.using acronyms in regular speech...OK
+9/25 test_bob.test.forceful question...OK
+10/25 test_bob.test.shouting numbers...OK
+11/25 test_bob.test.no letters...OK
+12/25 test_bob.test.question with no letters...OK
+13/25 test_bob.test.shouting with special characters...OK
+14/25 test_bob.test.shouting with no exclamation mark...OK
+15/25 test_bob.test.statement containing question mark...OK
+16/25 test_bob.test.non-letters with question...OK
+17/25 test_bob.test.prattling on...OK
+18/25 test_bob.test.silence...OK
+19/25 test_bob.test.prolonged silence...OK
+20/25 test_bob.test.alternate silence...OK
+21/25 test_bob.test.multiple line question...OK
+22/25 test_bob.test.starting with whitespace...OK
+23/25 test_bob.test.ending with whitespace...OK
+24/25 test_bob.test.other whitespace...OK
+25/25 test_bob.test.non-question ending with whitespace...OK
+All 25 tests passed.
