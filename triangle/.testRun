@@ -1,0 +1,27 @@
+=======================================================
+Mon Oct 28 15:43:14 GTBST 2024
+=======================================================
+>zig test test_triangle.zig
+
+1/21 test_triangle.test.equilateral all sides are equal...OK
+2/21 test_triangle.test.equilateral any side is unequal...OK
+3/21 test_triangle.test.equilateral no sides are equal...OK
+4/21 test_triangle.test.equilateral all zero sides is not a triangle...OK
+5/21 test_triangle.test.equilateral sides may be floats...OK
+6/21 test_triangle.test.isosceles last two sides are equal...OK
+7/21 test_triangle.test.isosceles first two sides are equal...OK
+8/21 test_triangle.test.isosceles first and last sides are equal...OK
+9/21 test_triangle.test.equilateral triangles are also isosceles...OK
+10/21 test_triangle.test.isosceles no sides are equal...OK
+11/21 test_triangle.test.isosceles first triangle inequality violation...OK
+12/21 test_triangle.test.isosceles second triangle inequality violation...OK
+13/21 test_triangle.test.isosceles third triangle inequality violation...OK
+14/21 test_triangle.test.isosceles sides may be floats...OK
+15/21 test_triangle.test.scalene no sides are equal...OK
+16/21 test_triangle.test.scalene all sides are equal...OK
+17/21 test_triangle.test.scalene first and second sides are equal...OK
+18/21 test_triangle.test.scalene first and third sides are equal...OK
+19/21 test_triangle.test.scalene second and third sides are equal...OK
+20/21 test_triangle.test.scalene may not violate triangle inequality...OK
+21/21 test_triangle.test.scalene sides may be floats...OK
+All 21 tests passed.
