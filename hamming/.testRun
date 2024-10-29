@@ -13,3 +13,21 @@ Thu Sep 19 22:16:35 GTBDT 2024
 8/9 test_hamming.test.disallow left empty strand...OK
 9/9 test_hamming.test.disallow right empty strand...OK
 All 9 tests passed.
+
+
+
+=======================================================
+Wed Oct  2 17:54:30 GTBDT 2024
+=======================================================
+>zig test test_hamming.zig
+
+1/9 test_hamming.test.empty strands...OK
+2/9 test_hamming.test.single letter identical strands...OK
+3/9 test_hamming.test.single letter different strands...OK
+4/9 test_hamming.test.long identical strands...OK
+5/9 test_hamming.test.long different strands...OK
+6/9 test_hamming.test.disallow first strand longer...OK
+7/9 test_hamming.test.disallow second strand longer...OK
+8/9 test_hamming.test.disallow left empty strand...OK
+9/9 test_hamming.test.disallow right empty strand...OK
+All 9 tests passed.
