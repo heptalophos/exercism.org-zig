@@ -1,0 +1,17 @@
+=======================================================
+Thu Oct 31 23:06:36 GTBST 2024
+=======================================================
+>zig test test_scrabble_score.zig
+
+1/11 test_scrabble_score.test.lowercase letter...OK
+2/11 test_scrabble_score.test.uppercase letter...OK
+3/11 test_scrabble_score.test.valuable letter...OK
+4/11 test_scrabble_score.test.short word...OK
+5/11 test_scrabble_score.test.short, valuable word...OK
+6/11 test_scrabble_score.test.medium word...OK
+7/11 test_scrabble_score.test.medium, valuable word...OK
+8/11 test_scrabble_score.test.long, mixed-case word...OK
+9/11 test_scrabble_score.test.english-like word...OK
+10/11 test_scrabble_score.test.empty input...OK
+11/11 test_scrabble_score.test.entire alphabet available...OK
+All 11 tests passed.
