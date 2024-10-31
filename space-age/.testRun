@@ -1,0 +1,14 @@
+=======================================================
+Thu Oct 31 23:28:22 GTBST 2024
+=======================================================
+>zig test test_space_age.zig
+
+1/8 test_space_age.test.age on earth...OK
+2/8 test_space_age.test.age on mercury...OK
+3/8 test_space_age.test.age on venus...OK
+4/8 test_space_age.test.age on mars...OK
+5/8 test_space_age.test.age on jupiter...OK
+6/8 test_space_age.test.age on saturn...OK
+7/8 test_space_age.test.age on uranus...OK
+8/8 test_space_age.test.age on neptune...OK
+All 8 tests passed.
