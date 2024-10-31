@@ -13,6 +13,6 @@ pub fn total() u64 {
 
 // Auxiliary
 
-fn complement(x: usize) usize {
+fn complement(comptime x: usize) usize {
     return ~x;
 }
