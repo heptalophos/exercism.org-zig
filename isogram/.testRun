@@ -1,0 +1,20 @@
+=======================================================
+Fri Nov  1 23:15:03 GTBST 2024
+=======================================================
+>zig test test_isogram.zig
+
+1/14 test_isogram.test.empty string...OK
+2/14 test_isogram.test.isogram with only lower case characters...OK
+3/14 test_isogram.test.word with one duplicated character...OK
+4/14 test_isogram.test.word with one duplicated character from the end of the alphabet...OK
+5/14 test_isogram.test.longest reported english isogram...OK
+6/14 test_isogram.test.word with duplicated character in mixed case...OK
+7/14 test_isogram.test.word with duplicated character in mixed case, lowercase first...OK
+8/14 test_isogram.test.hypothetical isogrammic word with hyphen...OK
+9/14 test_isogram.test.hypothetical word with duplicated character following hyphen...OK
+10/14 test_isogram.test.isogram with duplicated hyphen...OK
+11/14 test_isogram.test.made-up name that is an isogram...OK
+12/14 test_isogram.test.duplicated character in the middle...OK
+13/14 test_isogram.test.same first and last characters...OK
+14/14 test_isogram.test.word with duplicated character and with two hyphens...OK
+All 14 tests passed.
