@@ -4,8 +4,15 @@ pub const Classification = enum {
     abundant,
 };
 
-/// Asserts that `n` is nonzero.
 pub fn classify(n: u64) Classification {
-    _ = n;
-    @compileError("please implement the classify function");
+    @import("std").debug.assert(n > 0);
+    var aliquot: u64 = 0;
+    for (1..n) |i| {
+        if (i > (n >> 1)) break;
+        if (n % i == 0) aliquot += i;
+    }
+    if (aliquot < n) return Classification.deficient;
+    if (aliquot > n) return Classification.abundant;
+    return Classification.perfect;
+    
 }
