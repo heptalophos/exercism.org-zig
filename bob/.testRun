@@ -50,3 +50,37 @@ Wed Oct 16 01:55:31 GTBDT 2024
 24/25 test_bob.test.other whitespace...OK
 25/25 test_bob.test.non-question ending with whitespace...OK
 All 25 tests passed.
+
+
+
+=======================================================
+Wed Oct 16 02:05:17 GTBDT 2024
+=======================================================
+>zig test test_bob.zig
+
+1/25 test_bob.test.stating something...OK
+2/25 test_bob.test.shouting...OK
+3/25 test_bob.test.shouting gibberish...OK
+4/25 test_bob.test.asking a question...OK
+5/25 test_bob.test.asking a numeric question...OK
+6/25 test_bob.test.asking gibberish...OK
+7/25 test_bob.test.talking forcefully...OK
+8/25 test_bob.test.using acronyms in regular speech...OK
+9/25 test_bob.test.forceful question...OK
+10/25 test_bob.test.shouting numbers...OK
+11/25 test_bob.test.no letters...OK
+12/25 test_bob.test.question with no letters...OK
+13/25 test_bob.test.shouting with special characters...OK
+14/25 test_bob.test.shouting with no exclamation mark...OK
+15/25 test_bob.test.statement containing question mark...OK
+16/25 test_bob.test.non-letters with question...OK
+17/25 test_bob.test.prattling on...OK
+18/25 test_bob.test.silence...OK
+19/25 test_bob.test.prolonged silence...OK
+20/25 test_bob.test.alternate silence...OK
+21/25 test_bob.test.multiple line question...OK
+22/25 test_bob.test.starting with whitespace...OK
+23/25 test_bob.test.ending with whitespace...OK
+24/25 test_bob.test.other whitespace...OK
+25/25 test_bob.test.non-question ending with whitespace...OK
+All 25 tests passed.
