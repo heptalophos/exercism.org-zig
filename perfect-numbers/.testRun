@@ -19,7 +19,19 @@ All 11 tests passed.
 
 
 =======================================================
-Tue Nov  5 23:38:37 GTBST 2024
+Thu Nov  7 06:02:04 GTBST 2024
 =======================================================
 >zig test test_perfect_numbers.zig
 
+1/11 test_perfect_numbers.test.smallest perfect number is classified correctly...OK
+2/11 test_perfect_numbers.test.medium perfect number is classified correctly...OK
+3/11 test_perfect_numbers.test.large perfect number is classified correctly...OK
+4/11 test_perfect_numbers.test.smallest abundant number is classified correctly...OK
+5/11 test_perfect_numbers.test.medium abundant number is classified correctly...OK
+6/11 test_perfect_numbers.test.large abundant number is classified correctly...OK
+7/11 test_perfect_numbers.test.smallest prime deficient number is classified correctly...OK
+8/11 test_perfect_numbers.test.smallest non-prime deficient number is classified correctly...OK
+9/11 test_perfect_numbers.test.medium deficient number is classified correctly...OK
+10/11 test_perfect_numbers.test.large deficient number is classified correctly...OK
+11/11 test_perfect_numbers.test.edge case (no factors other than itself) is classified correctly...OK
+All 11 tests passed.
