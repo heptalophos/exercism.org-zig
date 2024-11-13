@@ -11,8 +11,8 @@ pub fn classify(n: u64) Classification {
         if (i > (n >> 1)) break;
         if (n % i == 0) aliquot += i;
     }
-    if (aliquot < n) return Classification.deficient;
-    if (aliquot > n) return Classification.abundant;
-    return Classification.perfect;
+    if (aliquot < n) return .deficient;
+    if (aliquot > n) return .abundant;
+    return .perfect;
     
 }
