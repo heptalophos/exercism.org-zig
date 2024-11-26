@@ -14,3 +14,22 @@ Mon Nov 25 20:02:09 GTBST 2024
 9/10 test_rotational_cipher.test.rotate punctuation...OK
 10/10 test_rotational_cipher.test.rotate all letters...OK
 All 10 tests passed.
+
+
+
+=======================================================
+Tue Nov 26 09:22:54 GTBST 2024
+=======================================================
+>zig test test_rotational_cipher.zig
+
+1/10 test_rotational_cipher.test.rotate a by 0, same output as input...OK
+2/10 test_rotational_cipher.test.rotate a by 1...OK
+3/10 test_rotational_cipher.test.rotate a by 26, same output as input...OK
+4/10 test_rotational_cipher.test.rotate m by 13...OK
+5/10 test_rotational_cipher.test.rotate n by 13 with wrap around alphabet...OK
+6/10 test_rotational_cipher.test.rotate capital letters...OK
+7/10 test_rotational_cipher.test.rotate spaces...OK
+8/10 test_rotational_cipher.test.rotate numbers...OK
+9/10 test_rotational_cipher.test.rotate punctuation...OK
+10/10 test_rotational_cipher.test.rotate all letters...OK
+All 10 tests passed.
