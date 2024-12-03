@@ -1,0 +1,9 @@
+=======================================================
+Tue Dec  3 11:47:59 GTBST 2024
+=======================================================
+>zig test test_two_fer.zig
+
+1/3 test_two_fer.test.no name given...OK
+2/3 test_two_fer.test.a name given...OK
+3/3 test_two_fer.test.another name given...OK
+All 3 tests passed.
