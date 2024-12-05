@@ -1,7 +1,14 @@
-// Take a look at the tests, you might have to change the function arguments
-
-pub fn binarySearch(target: usize, items: []const usize) ?usize {
-    _ = target;
-    _ = items;
-    @compileError("please implement the binarySearch function");
+pub fn binarySearch(comptime T: anytype, 
+                    target: T, 
+                    items: ?[]const T) ?usize 
+{
+    const list = items orelse return null;
+    var lo: usize = 0;
+    var hi: usize = list.len;
+    while (lo < hi) {
+        const mid = lo + ((hi - lo) >> 1);
+        if (list[mid] == target) return mid;
+        if (list[mid] > target) hi = mid else lo = mid + 1;
+    }
+    return null;
 }
