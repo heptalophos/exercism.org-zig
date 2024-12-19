@@ -12,5 +12,5 @@ pub fn eggCount(number: usize) usize {
     // return (1 & number) + eggCount(number >> 1);        //
     //                                                     //  
     // In general though, the loop above is more efficient //
-
+    /////////////////////////////////////////////////////////
 }

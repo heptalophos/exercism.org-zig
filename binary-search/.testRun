@@ -15,3 +15,23 @@ Thu Dec  5 23:19:03 GTBST 2024
 10/11 test_binary_search.test.nothing is found in an empty array...OK
 11/11 test_binary_search.test.nothing is found when the left and right bounds cross...OK
 All 11 tests passed.
+
+
+
+=======================================================
+Thu Dec 19 20:00:14 GTBST 2024
+=======================================================
+>zig test test_binary_search.zig
+
+1/11 test_binary_search.test.finds a value in an array with one element...OK
+2/11 test_binary_search.test.finds a value in the middle of an array...OK
+3/11 test_binary_search.test.finds a value at the beginning of an array...OK
+4/11 test_binary_search.test.finds a value at the end of an array...OK
+5/11 test_binary_search.test.finds a value in an array of odd length...OK
+6/11 test_binary_search.test.finds a value in an array of even length...OK
+7/11 test_binary_search.test.identifies that a value is not included in the array...OK
+8/11 test_binary_search.test.a value smaller than the array's smallest value is not found...OK
+9/11 test_binary_search.test.a value larger than the array's largest value is not found...OK
+10/11 test_binary_search.test.nothing is found in an empty array...OK
+11/11 test_binary_search.test.nothing is found when the left and right bounds cross...OK
+All 11 tests passed.
