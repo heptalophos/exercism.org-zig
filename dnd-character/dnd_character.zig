@@ -1,10 +1,19 @@
+const rand = @import("std").rand;
+
 pub fn modifier(score: i8) i8 {
-    _ = score;
-    @compileError("please implement the modifier function");
+    return score - 10 >> 1;
 }
 
 pub fn ability() i8 {
-    @compileError("please implement the ability function");
+    var randGen = rand.DefaultPrng.init(357111317);
+    var dice: @Vector(4, i8) = [_]i8{0} ** 4;
+    var i: usize = 0;
+    while (i < 4) : (i += 1) { 
+        dice[i] = randGen.random().intRangeAtMost(i8, 1, 6);
+    }
+    const sum = @reduce(.Add, dice);
+    const min = @reduce(.Min, dice);
+    return sum - min;
 }
 
 pub const Character = struct {
@@ -17,6 +26,15 @@ pub const Character = struct {
     hitpoints: i8,
 
     pub fn init() Character {
-        @compileError("please implement the init method");
+        const constitution = ability();
+        return .{
+            .strength = ability(), 
+            .dexterity = ability(),
+            .constitution = constitution, 
+            .intelligence = ability(),
+            .wisdom = ability(), 
+            .charisma = ability(),
+            .hitpoints = 10 + modifier(constitution)
+        };
     }
 };
