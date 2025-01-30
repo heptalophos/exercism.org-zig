@@ -1,0 +1,24 @@
+=======================================================
+Thu Jan 30 17:53:34 GTBST 2025
+=======================================================
+>zig test test_dnd_character.zig
+
+1/18 test_dnd_character.test.ability modifier for score 3 is -4...OK
+2/18 test_dnd_character.test.ability modifier for score 4 is -3...OK
+3/18 test_dnd_character.test.ability modifier for score 5 is -3...OK
+4/18 test_dnd_character.test.ability modifier for score 6 is -2...OK
+5/18 test_dnd_character.test.ability modifier for score 7 is -2...OK
+6/18 test_dnd_character.test.ability modifier for score 8 is -1...OK
+7/18 test_dnd_character.test.ability modifier for score 9 is -1...OK
+8/18 test_dnd_character.test.ability modifier for score 10 is 0...OK
+9/18 test_dnd_character.test.ability modifier for score 11 is 0...OK
+10/18 test_dnd_character.test.ability modifier for score 12 is +1...OK
+11/18 test_dnd_character.test.ability modifier for score 13 is +1...OK
+12/18 test_dnd_character.test.ability modifier for score 14 is +2...OK
+13/18 test_dnd_character.test.ability modifier for score 15 is +2...OK
+14/18 test_dnd_character.test.ability modifier for score 16 is +3...OK
+15/18 test_dnd_character.test.ability modifier for score 17 is +3...OK
+16/18 test_dnd_character.test.ability modifier for score 18 is +4...OK
+17/18 test_dnd_character.test.random ability is within range...OK
+18/18 test_dnd_character.test.random character is valid...OK
+All 18 tests passed.
