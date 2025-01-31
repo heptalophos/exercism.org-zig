@@ -1,0 +1,12 @@
+=======================================================
+Fri Jan 31 18:08:58 GTBST 2025
+=======================================================
+>zig test test_rna_transcription.zig
+
+1/6 test_rna_transcription.test.empty rna sequence...OK
+2/6 test_rna_transcription.test.rna complement of cytosine is guanine...OK
+3/6 test_rna_transcription.test.rna complement of guanine is cytosine...OK
+4/6 test_rna_transcription.test.rna complement of thymine is adenine...OK
+5/6 test_rna_transcription.test.rna complement of adenine is uracil...OK
+6/6 test_rna_transcription.test.rna complement...OK
+All 6 tests passed.
