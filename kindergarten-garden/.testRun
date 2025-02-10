@@ -1,0 +1,23 @@
+=======================================================
+Mon Feb 10 22:31:45 GTBST 2025
+=======================================================
+>zig test test_kindergarten_garden.zig
+
+1/17 test_kindergarten_garden.test.partial garden with single student...OK
+2/17 test_kindergarten_garden.test.partial garden-different garden with single student...OK
+3/17 test_kindergarten_garden.test.partial garden with two students...OK
+4/17 test_kindergarten_garden.test.partial garden-multiple students for the same garden with three students-second student's garden...OK
+5/17 test_kindergarten_garden.test.partial garden-multiple students for the same garden with three students-third student's garden...OK
+6/17 test_kindergarten_garden.test.full garden-for Alice, first student's garden...OK
+7/17 test_kindergarten_garden.test.full garden-for Bob, second student's garden...OK
+8/17 test_kindergarten_garden.test.full garden-for Charlie...OK
+9/17 test_kindergarten_garden.test.full garden-for David...OK
+10/17 test_kindergarten_garden.test.full garden-for Eve...OK
+11/17 test_kindergarten_garden.test.full garden-for Fred...OK
+12/17 test_kindergarten_garden.test.full garden-for Ginny...OK
+13/17 test_kindergarten_garden.test.full garden-for Harriet...OK
+14/17 test_kindergarten_garden.test.full garden-for Ileana...OK
+15/17 test_kindergarten_garden.test.full garden-for Joseph...OK
+16/17 test_kindergarten_garden.test.full garden-for Kincaid, second to last student's garden...OK
+17/17 test_kindergarten_garden.test.full garden-for Larry, last student's garden...OK
+All 17 tests passed.
