@@ -1,0 +1,24 @@
+=======================================================
+Thu Feb 13 23:48:30 GTBST 2025
+=======================================================
+>zig test test_sublist.zig
+
+1/18 test_sublist.test.empty lists...OK
+2/18 test_sublist.test.empty list within non empty list...OK
+3/18 test_sublist.test.non empty list contains empty list...OK
+4/18 test_sublist.test.list equals itself...OK
+5/18 test_sublist.test.different lists...OK
+6/18 test_sublist.test.false start...OK
+7/18 test_sublist.test.consecutive...OK
+8/18 test_sublist.test.sublist at start...OK
+9/18 test_sublist.test.sublist in middle...OK
+10/18 test_sublist.test.sublist at end...OK
+11/18 test_sublist.test.at start of superlist...OK
+12/18 test_sublist.test.in middle of superlist...OK
+13/18 test_sublist.test.at end of superlist...OK
+14/18 test_sublist.test.first list missing element from second list...OK
+15/18 test_sublist.test.second list missing element from first list...OK
+16/18 test_sublist.test.first list missing additional digits from second list...OK
+17/18 test_sublist.test.order matters to a list...OK
+18/18 test_sublist.test.same digits but different numbers...OK
+All 18 tests passed.
