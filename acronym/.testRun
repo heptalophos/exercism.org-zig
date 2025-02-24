@@ -1,0 +1,15 @@
+=======================================================
+Mon Feb 24 17:56:50 GTBST 2025
+=======================================================
+>zig test test_acronym.zig
+
+1/9 test_acronym.test.basic...OK
+2/9 test_acronym.test.lowercase words...OK
+3/9 test_acronym.test.punctuation...OK
+4/9 test_acronym.test.all caps word...OK
+5/9 test_acronym.test.punctuation without whitespace...OK
+6/9 test_acronym.test.very long abbreviation...OK
+7/9 test_acronym.test.consecutive delimiters...OK
+8/9 test_acronym.test.apostrophes...OK
+9/9 test_acronym.test.underscore emphasis...OK
+All 9 tests passed.
