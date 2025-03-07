@@ -1,0 +1,23 @@
+=======================================================
+Fri Mar  7 16:29:38 GTBST 2025
+=======================================================
+>zig test test_sum_of_multiples.zig
+
+1/17 test_sum_of_multiples.test.no multiples within limit...OK
+2/17 test_sum_of_multiples.test.one factor has multiples within limit...OK
+3/17 test_sum_of_multiples.test.more than one multiple within limit...OK
+4/17 test_sum_of_multiples.test.more than one factor with multiples within limit...OK
+5/17 test_sum_of_multiples.test.each multiple is only counted once...OK
+6/17 test_sum_of_multiples.test.a much larger limit...OK
+7/17 test_sum_of_multiples.test.three factors...OK
+8/17 test_sum_of_multiples.test.factors not relatively prime...OK
+9/17 test_sum_of_multiples.test.some pairs of factors relatively prime and some not...OK
+10/17 test_sum_of_multiples.test.one factor is a multiple of another...OK
+11/17 test_sum_of_multiples.test.much larger factors...OK
+12/17 test_sum_of_multiples.test.all numbers are multiples of 1...OK
+13/17 test_sum_of_multiples.test.no factors means an empty sum...OK
+14/17 test_sum_of_multiples.test.the only multiple of 0 is 0...OK
+15/17 test_sum_of_multiples.test.the factor 0 does not affect the sum of multiples of other factors...OK
+16/17 test_sum_of_multiples.test.solutions using include-exclude must extend to cardinality greater than 3...OK
+17/17 test_sum_of_multiples.test.sum is greater than maximum value of u32...OK
+All 17 tests passed.
