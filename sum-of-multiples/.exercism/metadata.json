@@ -1,1 +1,9 @@
-{"track":"zig","exercise":"sum-of-multiples","id":"31ca6213a3cb4c67ac2599ed28097869","url":"https://exercism.org/tracks/zig/exercises/sum-of-multiples","handle":"heptalophos","is_requester":true,"auto_approve":false}
+{
+    "track": "zig",
+    "exercise": "sum-of-multiples",
+    "id": "31ca6213a3cb4c67ac2599ed28097869",
+    "url": "https://exercism.org/tracks/zig/exercises/sum-of-multiples/solutions/31ca6213a3cb4c67ac2599ed28097869",
+    "handle": "heptalophos",
+    "is_requester": true,
+    "auto_approve": false
+}
