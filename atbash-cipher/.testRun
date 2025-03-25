@@ -18,3 +18,26 @@ Wed Mar 19 18:16:13 GTBST 2025
 13/14 test_atbash_cipher.test.decode with too many spaces...OK
 14/14 test_atbash_cipher.test.decode with no spaces...OK
 All 14 tests passed.
+
+
+
+=======================================================
+Wed Mar 19 18:47:49 GTBST 2025
+=======================================================
+>zig test test_atbash_cipher.zig
+
+1/14 test_atbash_cipher.test.encode yes...OK
+2/14 test_atbash_cipher.test.encode no...OK
+3/14 test_atbash_cipher.test.encode omg...OK
+4/14 test_atbash_cipher.test.encode spaces...OK
+5/14 test_atbash_cipher.test.encode mindblowingly...OK
+6/14 test_atbash_cipher.test.encode numbers...OK
+7/14 test_atbash_cipher.test.encode deep thought...OK
+8/14 test_atbash_cipher.test.encode all the letters...OK
+9/14 test_atbash_cipher.test.decode exercism...OK
+10/14 test_atbash_cipher.test.decode a sentence...OK
+11/14 test_atbash_cipher.test.decode numbers...OK
+12/14 test_atbash_cipher.test.decode all the letters...OK
+13/14 test_atbash_cipher.test.decode with too many spaces...OK
+14/14 test_atbash_cipher.test.decode with no spaces...OK
+All 14 tests passed.
