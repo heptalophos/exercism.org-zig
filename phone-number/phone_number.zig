@@ -5,12 +5,10 @@ pub fn clean(phrase: []const u8) ?[10]u8 {
     var index: u8 = 0;
     for (phrase) |d| {
         if (ascii.isDigit(d)) {
-            if ((index == 0 or index == 3) and d == '0') 
+            if (d == '0' and (index == 0 or index == 3))
                 return null;
-            if (index == 0 and d == '1') 
-                continue;
-            if (index == 3 and d == '1') 
-                return null;
+            if (index == 0 and d == '1') continue;
+            if (index == 3 and d == '1') return null;
             if (index == 10) return null;
             number[index] = d;
             index += 1;
