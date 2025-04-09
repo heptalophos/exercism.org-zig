@@ -22,3 +22,30 @@ Thu Mar  6 23:38:24 GTBST 2025
 17/18 test_phone_number.test.invalid if exchange code starts with 0 on valid 11-digit number...OK
 18/18 test_phone_number.test.invalid if exchange code starts with 1 on valid 11-digit number...OK
 All 18 tests passed.
+
+
+
+=======================================================
+Wed Apr  9 12:50:21 GTBDT 2025
+=======================================================
+>zig test test_phone_number.zig
+
+1/18 test_phone_number.test.cleans the number...OK
+2/18 test_phone_number.test.cleans numbers with dots...OK
+3/18 test_phone_number.test.cleans numbers with multiple spaces...OK
+4/18 test_phone_number.test.invalid when 9 digits...OK
+5/18 test_phone_number.test.invalid when 11 digits does not start with a 1...OK
+6/18 test_phone_number.test.valid when 11 digits and starting with 1...OK
+7/18 test_phone_number.test.valid when 11 digits and starting with 1 even with punctuation...OK
+8/18 test_phone_number.test.invalid when more than 11 digits...OK
+9/18 test_phone_number.test.invalid with letters...OK
+10/18 test_phone_number.test.invalid with punctuations...OK
+11/18 test_phone_number.test.invalid if area code starts with 0...OK
+12/18 test_phone_number.test.invalid if area code starts with 1...OK
+13/18 test_phone_number.test.invalid if exchange code starts with 0...OK
+14/18 test_phone_number.test.invalid if exchange code starts with 1...OK
+15/18 test_phone_number.test.invalid if area code starts with 0 on valid 11-digit number...OK
+16/18 test_phone_number.test.invalid if area code starts with 1 on valid 11-digit number...OK
+17/18 test_phone_number.test.invalid if exchange code starts with 0 on valid 11-digit number...OK
+18/18 test_phone_number.test.invalid if exchange code starts with 1 on valid 11-digit number...OK
+All 18 tests passed.
