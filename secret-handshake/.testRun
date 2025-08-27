@@ -1,0 +1,17 @@
+=======================================================
+Wed Aug 27 22:57:22 GTBDT 2025
+=======================================================
+>zig test test_secret_handshake.zig
+
+1/11 test_secret_handshake.test.wink for 1...OK
+2/11 test_secret_handshake.test.double blink for 10...OK
+3/11 test_secret_handshake.test.close your eyes for 100...OK
+4/11 test_secret_handshake.test.jump for 1000...OK
+5/11 test_secret_handshake.test.combine two actions...OK
+6/11 test_secret_handshake.test.reverse two actions...OK
+7/11 test_secret_handshake.test.reversing one action gives the same action...OK
+8/11 test_secret_handshake.test.reversing no actions still gives no actions...OK
+9/11 test_secret_handshake.test.all possible actions...OK
+10/11 test_secret_handshake.test.reverse all possible actions...OK
+11/11 test_secret_handshake.test.do nothing for zero...OK
+All 11 tests passed.
